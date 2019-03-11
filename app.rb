@@ -1,5 +1,4 @@
 class App < Sinatra::Base
-
 	get '/hello' do
 		erb :hello
 	end
@@ -11,9 +10,4 @@ class App < Sinatra::Base
 	get '/date' do
 		erb :date
 	end
-
-
-
-
-
 end
